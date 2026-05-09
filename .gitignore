@@ -1,0 +1,13 @@
+# PowerShell artifacts
+*.psd1.bak
+*.psm1.bak
+
+# Pester output
+TestResults.xml
+TestResults/
+
+# VS Code
+.vscode/
+
+# Temp
+*.tmp
