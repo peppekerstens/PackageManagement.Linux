@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>PackageManagement.Linux</id>
+    <version>0.1.0</version>
+    <authors>peppekerstens</authors>
+    <description>PowerShell module for Linux providing cmdlet parity with the Windows PackageManagement module. Wraps apt/dnf/zypper to implement Find-Package, Get-Package, Install-Package, Uninstall-Package, and Get-PackageSource.</description>
+    <tags>PowerShell Linux pwsh Module PackageManagement</tags>
+    <projectUrl>https://github.com/peppekerstens/PackageManagement.Linux</projectUrl>
+    <license type="expression">GPL-3.0-only</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="PackageManagement.Linux\**\*" target="PackageManagement.Linux" />
+    <file src="PSScriptAnalyzerSettings.psd1" target="PackageManagement.Linux" />
+  </files>
+</package>
+
+
